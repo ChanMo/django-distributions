@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Static
+!/distributions/static/distributions/dist
+
+# React
+node_modules/
