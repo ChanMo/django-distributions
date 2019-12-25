@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+recursive-include distributions/static *
+recursive-include distributions/migrations *
+recursive-include distributions/local *
+recursive-include distributions/templates *
