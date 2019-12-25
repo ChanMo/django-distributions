@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-hans">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="乡乎县应"
+    />
+    <title>乡呼县应</title>
+    <style>
+    body {
+        margin: 0;
+    }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+        window.props = {
+            "name":"{{object.name}}",
+            "icon":"{{object.icon.url}}",
+            //"bg":"{{object.background.url}}",
+            "description": "{{object.description}}",
+            "version_name": "{{object.get_android_version_name}}",
+            "link": "{{object.get_android_url}}"
+        };
+    </script>
+    <script src="{% static 'distribution/dist/app.js' %}"></script>
+  </body>
+</html>
