@@ -6,4 +6,4 @@ from .models import *
 class AppView(DetailView):
     model = App
     lookup_field = 'slug'
-    template_name = 'distribution/index.html'
+    template_name = 'distributions/index.html'

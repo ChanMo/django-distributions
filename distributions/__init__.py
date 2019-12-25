@@ -1,1 +1,1 @@
-default_app_config='distribution.apps.DistributionConfig'
+default_app_config='distributions.apps.DistributionsConfig'

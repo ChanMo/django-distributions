@@ -62,7 +62,7 @@ const ModalImg = styled.div`
   width: 100vw;
   height: 100vh;
   background-color: rgba(0,0,0,.5);
-  background-image: url(/static/distribution/wx.png);
+  background-image: url(/static/distributions/wx.png);
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 80vw 80vw;
